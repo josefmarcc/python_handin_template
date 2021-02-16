@@ -1,0 +1,4 @@
+not email
+test@test.com
+this is not an email line
+thisis@anemail.com

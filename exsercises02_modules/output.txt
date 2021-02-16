@@ -1,0 +1,6 @@
+.git
+.gitignore
+.ipynb_checkpoints
+Lesson1.ipynb
+my_modules
+python_handin_template
