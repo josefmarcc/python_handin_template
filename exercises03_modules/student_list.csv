@@ -1,0 +1,11 @@
+Name,Gender,Classes,Image url,Grades
+Eric Buresh,male,"('C++', 3, 'Jon', 15, 2)",img
+Kelly Clewell,male,"('JavaScript', 9, 'Jon', 15, 12)",img
+Kelly Torres,female,"('JavaScript', 9, 'Jon', 15, 12)",img
+Michael Trottier,male,"('C++', 5, 'Thomas', 15, 7)",img
+Bonita Walden,male,"('C++', 5, 'Thomas', 15, 7)",img
+John Kurtz,female,"('C++', 5, 'Thomas', 15, 7)",img
+Ana Mccord,female,"('DataScience', 29, 'Kim', 15, 7)",img
+Janice Rouse,male,"('DataScience', 29, 'Kim', 15, 7)",img
+Claudette Berryhill,male,"('DataScience', 29, 'Kim', 15, 7)",img
+Dale Norton,male,"('DataScience', 29, 'Kim', 15, 7)",img
