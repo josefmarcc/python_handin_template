@@ -13,8 +13,6 @@ class Student():
         self.gender = gender
         self.data_sheet = data_sheet
         self.img_url = img_url
-
-
     
     def __repr__(self):
         return '%r, %r, %r, %r' % (self.name, self.gender, 
@@ -47,6 +45,9 @@ class DataSheet():
 
     def __init__(self, *courses):
         self.courses = courses
+
+    def __repr__(self):
+        return '(%r)' % (self.courses) 
 
     def get_grades_as_list(self):
         grade_list = []
@@ -87,15 +88,6 @@ def write_list_to_file(output_file, lst):
         for student in lst:
             output_writer.writerow(list(student))
 
-course1 = Course("Python", 2, "Thomas", 30, 12)
-course2 = Course("JS", 2, "Lars", 30, 10)
-course3 = Course("Functional Programming", 2, "Kim", 30, 7)
-
-d1 = DataSheet(course1, course2, course3)
-student1 = Student("Jesus", "male", d1, "img")
-
-print(d1.get_grades_as_list())
-print(student1.get_avg_grade())
 
 student_gen_list = student_generator(5)
 
@@ -114,7 +106,7 @@ def read_csv_filecontent(file):
             gender = lines[1]
             data_sheet = lines[2]
             img_url = lines[3]
-            s = Student(name, gender, data_sheet, img_url)
+            s = Student(name, gender, DataSheet(data_sheet), img_url)
 
             list_of_students.append(s)
 
@@ -123,6 +115,15 @@ def read_csv_filecontent(file):
 st_lst = read_csv_filecontent("./student_list.csv")
 
 for Student in st_lst:
-    student_avg = Student.data_sheet
-    print(student_avg)
+    print(Student.data_sheet.courses)
 
+
+course1 = Course("Python", 2, "Thomas", 30, 12)
+course2 = Course("JS", 2, "Lars", 30, 10)
+course3 = Course("Functional Programming", 2, "Kim", 30, 7)
+
+d1 = DataSheet(course1, course2, course3)
+student1 = Student("Jesus", "male", d1, "img")
+
+print(d1.get_grades_as_list())
+print(student1.get_avg_grade())

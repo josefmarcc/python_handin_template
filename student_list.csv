@@ -1,0 +1,11 @@
+Name,Gender,Classes,Image url,Grades
+Carlos Carollo,male,"('DataScience', 28, 'Kim', 15, 12)",img
+David Ward,male,"('DataScience', 27, 'Jon', 15, 0)",img
+Catherine Mcclurkin,male,"('DataScience', 27, 'Jon', 15, 0)",img
+Edna Gates,male,"('Math', 4, 'Jon', 15, 4)",img
+Tara Rolon,female,"('Math', 4, 'Jon', 15, 4)",img
+Bill Vasquez,female,"('Math', 4, 'Jon', 15, 4)",img
+Jeremy Garrett,female,"('Python', 27, 'Thomas', 15, 0)",img
+Douglas Farrar,male,"('Python', 27, 'Thomas', 15, 0)",img
+Sherri Stadler,female,"('Python', 27, 'Thomas', 15, 0)",img
+Jeannette Roberts,female,"('Python', 27, 'Thomas', 15, 0)",img
