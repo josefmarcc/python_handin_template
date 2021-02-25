@@ -51,8 +51,8 @@ class DataSheet():
 
     def get_grades_as_list(self):
         grade_list = []
-        for element in self.courses:
-            grade_list.append(element.grade)
+        for course in self.courses:
+            grade_list.append(course.grade)
         return grade_list
 
 
@@ -104,7 +104,7 @@ def read_csv_filecontent(file):
         for lines in csv_reader:
             name = lines[0]
             gender = lines[1]
-            data_sheet = lines[2]
+            data_sheet =lines[2]
             img_url = lines[3]
             s = Student(name, gender, DataSheet(data_sheet), img_url)
 
@@ -113,9 +113,6 @@ def read_csv_filecontent(file):
     return list_of_students
 
 st_lst = read_csv_filecontent("./student_list.csv")
-
-for Student in st_lst:
-    print(Student.data_sheet.courses)
 
 
 course1 = Course("Python", 2, "Thomas", 30, 12)
@@ -127,3 +124,9 @@ student1 = Student("Jesus", "male", d1, "img")
 
 print(d1.get_grades_as_list())
 print(student1.get_avg_grade())
+
+
+
+for Student in st_lst:
+    print(Student)
+

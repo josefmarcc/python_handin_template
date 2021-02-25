@@ -1,11 +1,11 @@
 Name,Gender,Classes,Image url,Grades
-Robin Velazquez,female,"('Math', 9, 'Thomas', 15, 0)",img
-Ramon Gaughan,male,"('JavaScript', 1, 'Thomas', 15, 10)",img
-Collette Armstrong,male,"('JavaScript', 1, 'Thomas', 15, 10)",img
-David Miller,female,"('Python', 14, 'Lars', 15, 4)",img
-Lawrence Crosno,female,"('Python', 14, 'Lars', 15, 4)",img
-Teresa Castaneda,male,"('Python', 14, 'Lars', 15, 4)",img
-Bonnie Ota,male,"('Functional Programming', 3, 'Thomas', 15, 4)",img
-Barbara Sanders,female,"('Functional Programming', 3, 'Thomas', 15, 4)",img
-Steven Fugate,female,"('Functional Programming', 3, 'Thomas', 15, 4)",img
-Ida Thomas,female,"('Functional Programming', 3, 'Thomas', 15, 4)",img
+Neil Camus,female,"('JavaScript', 17, 'Jon', 15, 4)",img
+Jaime Dejardin,male,"('Functional Programming', 16, 'Jon', 15, 10)",img
+Blake Cline,female,"('Functional Programming', 16, 'Jon', 15, 10)",img
+Michael Murphy,female,"('Math', 24, 'Kim', 15, 0)",img
+Alyson Martini,female,"('Math', 24, 'Kim', 15, 0)",img
+Frank Agee,female,"('Math', 24, 'Kim', 15, 0)",img
+Lynn Harris,male,"('C++', 25, 'Kim', 15, 10)",img
+Maria Jordan,male,"('C++', 25, 'Kim', 15, 10)",img
+Christina Rolfe,male,"('C++', 25, 'Kim', 15, 10)",img
+Elias Barden,female,"('C++', 25, 'Kim', 15, 10)",img
